@@ -34,7 +34,7 @@ To deploy this project run
 # For create multipole QR code 
 
 import qrcode
-with open("site.csv") as file:
+with open("site.csv") as file: #site.csv file have given to this repository.
     for i in file:
         data = i.strip("\n")
         new_data = data.split(",")
